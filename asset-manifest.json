@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Candels-and-capitals/static/css/main.eaf22602.css",
-    "main.js": "/Candels-and-capitals/static/js/main.040ab522.js",
+    "main.js": "/Candels-and-capitals/static/js/main.89c2f36d.js",
     "static/js/453.4e774188.chunk.js": "/Candels-and-capitals/static/js/453.4e774188.chunk.js",
     "static/media/companyLogo.png": "/Candels-and-capitals/static/media/companyLogo.922cbb7875dccb0a969d.png",
     "static/media/teenagegirl.svg": "/Candels-and-capitals/static/media/teenagegirl.02f49db5393cd67dc366c72503970c75.svg",
@@ -14,11 +14,11 @@
     "index.html": "/Candels-and-capitals/index.html",
     "static/media/home-page-bg.svg": "/Candels-and-capitals/static/media/home-page-bg.14172556e69f0cf3b354.svg",
     "main.eaf22602.css.map": "/Candels-and-capitals/static/css/main.eaf22602.css.map",
-    "main.040ab522.js.map": "/Candels-and-capitals/static/js/main.040ab522.js.map",
+    "main.89c2f36d.js.map": "/Candels-and-capitals/static/js/main.89c2f36d.js.map",
     "453.4e774188.chunk.js.map": "/Candels-and-capitals/static/js/453.4e774188.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eaf22602.css",
-    "static/js/main.040ab522.js"
+    "static/js/main.89c2f36d.js"
   ]
 }
