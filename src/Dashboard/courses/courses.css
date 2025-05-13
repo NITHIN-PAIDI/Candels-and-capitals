@@ -1,0 +1,123 @@
+
+.category-title{
+    white-space: pre-wrap;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: rgb(30, 41, 59);
+    text-align: start;
+    p{
+    margin: 0px;
+
+
+    }
+}
+
+/* Add these styles to your courses.css file */
+
+.course-slider-container {
+    padding: 20px;
+    width: 100%;
+}
+
+.course-card-holder {
+    width: 250px;
+    height: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.course-card-holder:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.top-section {
+    height: 150px;
+    overflow: hidden;
+}
+
+.top-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom-section {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: start;
+    gap: 18px;
+}
+
+.course-title {
+    margin: 0px;
+    text-align: start;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-weight: 500;
+    color: rgb(0, 35, 79);
+    font-size: 20px;
+    width: 233px;
+}
+
+.course-description {
+    margin: 0px;
+    white-space: pre-wrap;
+    font-family: Inter;
+    font-size: 14px;
+    color: rgb(53, 78, 110);
+    line-height: 2;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Customize slick slider */
+.slick-prev, .slick-next {
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.category-title {
+    margin: 20px 0 10px 20px;
+}
+
+.category-title p {
+    font-family: 'Inter';
+    white-space: pre-wrap;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(0, 48, 110);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-left: 5px;
+}

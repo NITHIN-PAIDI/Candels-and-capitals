@@ -1,0 +1,147 @@
+.dashboard-outer-holder {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+.user-profile {
+    border-radius: 50%;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.user-data {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.dashboard-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: #9dccff;
+
+
+}
+
+.navigation-holder {
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    min-width: 308px; /* Add this to prevent shrinking */
+    background-color: rgb(15, 23, 42);
+    padding: 22px 18px;
+    min-height: 93vh; /* Changed from 90vh to 100vh */
+    gap: 30px;
+}
+
+
+.TittleSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.tittle {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #dad73b;
+}
+
+.resultantDashBoard {
+    border: 1px solid red;
+    flex: 1; /* This makes it take up all remaining space */
+    padding: 41px 10px 10px 10px;
+    overflow-y: auto; /* Add scrolling if content is too tall */
+    overflow-x: hidden;
+    background-color: rgb(246, 247, 249);
+}
+
+.side-bar-options {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    gap: 20px;
+}
+
+.sidebar-option {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    height: 50px;
+    padding-left: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    svg {
+        fill: rgb(148, 163, 184);
+
+    }
+
+    p {
+        color: rgb(148, 163, 184);
+    }
+
+    &:hover {
+        background-color: rgb(148, 163, 184);
+
+        svg {
+            fill: rgb(15, 23, 42);
+        }
+
+        p {
+            color: rgb(15, 23, 42);
+        }
+    }
+}
+
+.footer {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer-content {
+        display: flex;
+
+
+        p {
+            color: rgb(148, 163, 184);
+        }
+        
+
+        gap: 20px;
+
+        img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+    }
+
+    .log-out{
+        cursor: pointer;
+        svg{
+            fill: rgb(148, 163, 184);
+        }
+            
+        }
+
+}
+
+.active-option{
+    background-color: rgb(148, 163, 184);
+    svg{
+        fill: rgb(15, 23, 42);
+    }
+    p{
+        color: rgb(15, 23, 42);
+    }
+}
