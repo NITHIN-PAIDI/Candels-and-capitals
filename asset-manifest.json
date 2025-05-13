@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Candels-and-capitals/static/css/main.eaf22602.css",
+    "main.js": "/Candels-and-capitals/static/js/main.040ab522.js",
+    "static/js/453.4e774188.chunk.js": "/Candels-and-capitals/static/js/453.4e774188.chunk.js",
+    "static/media/companyLogo.png": "/Candels-and-capitals/static/media/companyLogo.922cbb7875dccb0a969d.png",
+    "static/media/teenagegirl.svg": "/Candels-and-capitals/static/media/teenagegirl.02f49db5393cd67dc366c72503970c75.svg",
+    "static/media/childLogin.svg": "/Candels-and-capitals/static/media/childLogin.ba2b20576361771a157494f118a2123a.svg",
+    "static/media/overLayImages.svg": "/Candels-and-capitals/static/media/overLayImages.a1ce4176fce9873d8ab52cb30a20dede.svg",
+    "static/media/slick.svg": "/Candels-and-capitals/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Candels-and-capitals/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Candels-and-capitals/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Candels-and-capitals/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Candels-and-capitals/index.html",
+    "static/media/home-page-bg.svg": "/Candels-and-capitals/static/media/home-page-bg.14172556e69f0cf3b354.svg",
+    "main.eaf22602.css.map": "/Candels-and-capitals/static/css/main.eaf22602.css.map",
+    "main.040ab522.js.map": "/Candels-and-capitals/static/js/main.040ab522.js.map",
+    "453.4e774188.chunk.js.map": "/Candels-and-capitals/static/js/453.4e774188.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaf22602.css",
+    "static/js/main.040ab522.js"
+  ]
+}
